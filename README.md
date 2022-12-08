@@ -1,7 +1,7 @@
 # VQF
 Variational Quantum Factoring
 
-**Code has been developed by referencing papers, publicly available code and content online. The objective of the VQF project is to understand and implement Variational Quantum Factoring through a working model.**
+**Code is basically a refactoring of publicly available code (https://github.com/mstechly) by referencing papers, and other content online. The objective of the VQF project is to understand and implement Variational Quantum Factoring through a working model.**
 
 **Referenced papers:**
 * Shor, Peter W., Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer, 1997, SIAM Journal on Computing.
@@ -12,3 +12,12 @@ Variational Quantum Factoring
 * https://github.com/mstechly/vqf/tree/master/vqf
 * https://github.com/rigetti/pyquil/tree/master/pyquil
 * https://pyquil-docs.rigetti.com
+
+**To execute the script in Windows**
+* Install pyquil by executing the following inline command in Jupyter notebook:
+    - !pip install pyquil
+    - !pip install --upgrade pyquil
+* Post installation restart the machine 
+* Run the following commands in separate command prompt screens and keep them running till you execute this script:
+    - qvm -S
+    - quilc -S
